@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_BACKEND_ENDPOINT || 'http://localhost:3001',
+  baseURL: process.env.REACT_APP_BACKEND_ENDPOINT || 'https://delivery-app-back-end-8cra.vercel.app/',
 });
 
 export const setToken = (token) => {
